@@ -1,0 +1,214 @@
+name: getx_home_service
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  build_runner: ^2.3.3
+  camera: ^0.10.3+2
+  change_app_package_name: ^1.1.0
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  data_connection_checker_tv: ^0.3.5-nullsafety
+  device_info_plus: ^8.1.0
+  dio: ^5.0.1
+  equatable: ^2.0.5
+  firebase_core: ^2.8.0
+  firebase_messaging: ^14.3.0
+  flutter:
+    sdk: flutter
+  flutter_datetime_picker: ^1.5.1
+  flutter_feather_icons: ^2.0.0+1
+  flutter_local_notifications: ^13.0.0
+  flutter_localization: ^0.1.10
+  flutter_spinkit: ^5.1.0
+  gap: ^2.0.1
+  get: ^4.6.5
+  google_fonts: ^4.0.3
+  google_maps_flutter: ^2.2.4
+  image_cropper: ^3.0.1
+  image_picker: ^0.8.6+4
+  json_annotation: ^4.8.0
+  json_serializable: ^6.6.1
+  lottie: ^2.2.0
+  permission_handler: ^10.2.0
+  pretty_dio_logger: ^1.3.1
+  pull_to_refresh: ^2.0.0
+  qr_code_scanner: ^1.0.1
+  responsive_framework: ^0.2.0
+  retrofit: ^4.0.1
+  retrofit_generator: ^5.0.0
+  shared_preferences: ^2.0.18
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/3 User.png
+    - assets/icons/Arrow - Right.png
+    - assets/icons/Chart.png
+    - assets/icons/Hide.png
+    - assets/icons/Paper Plus.png
+    - assets/icons/Ticket Star.png
+    - assets/icons/2 User.png
+    - assets/icons/Arrow - Right Square.png
+    - assets/icons/Category.png
+    - assets/icons/Heart.png
+    - assets/icons/Paper Negative.png
+    - assets/icons/Tick Square.png
+    - assets/icons/Activity.png
+    - assets/icons/Arrow - Up 2.png
+    - assets/icons/Chat.png
+    - assets/icons/Home.png
+    - assets/icons/Paper Upload.png
+    - assets/icons/Ticket.png
+    - assets/icons/Add User.png
+    - assets/icons/Arrow - Up 3.png
+    - assets/icons/Close Square.png
+    - assets/icons/Image 2.png
+    - assets/icons/Paper.png
+    - assets/icons/Time Circle.png
+    - assets/icons/Arrow - Down 2.png
+    - assets/icons/Arrow - Up Circle.png
+    - assets/icons/Danger.png
+    - assets/icons/Image.png
+    - assets/icons/Password.png
+    - assets/icons/Time Square.png
+    - assets/icons/Arrow - Down 3.png
+    - assets/icons/Arrow - Up Square.png
+    - assets/icons/Delete.png
+    - assets/icons/Info Circle.png
+    - assets/icons/Play.png
+    - assets/icons/Unlock.png
+    - assets/icons/Arrow - Down Circle.png
+    - assets/icons/Arrow - Up.png
+    - assets/icons/Discount.png
+    - assets/icons/Info Square.png
+    - assets/icons/Plus.png
+    - assets/icons/Upload.png
+    - assets/icons/Arrow - Down Square.png
+    - assets/icons/Bag 2.png
+    - assets/icons/Discovery.png
+    - assets/icons/Location.png
+    - assets/icons/Profile.png
+    - assets/icons/Video.png
+    - assets/icons/Arrow - Down.png
+    - assets/icons/Bag.png
+    - assets/icons/Document.png
+    - assets/icons/Lock.png
+    - assets/icons/Scan.png
+    - assets/icons/Voice 2.png
+    - assets/icons/Arrow - Left 2.png
+    - assets/icons/Bookmark.png
+    - assets/icons/Download.png
+    - assets/icons/Login.png
+    - assets/icons/Search.png
+    - assets/icons/Voice.png
+    - assets/icons/Arrow - Left 3.png
+    - assets/icons/Buy.png
+    - assets/icons/Edit Square.png
+    - assets/icons/Logout.png
+    - assets/icons/Send.png
+    - assets/icons/Volume Down.png
+    - assets/icons/Arrow - Left Circle.png
+    - assets/icons/Calendar.png
+    - assets/icons/Edit.png
+    - assets/icons/Message.png
+    - assets/icons/Setting.png
+    - assets/icons/Volume Off.png
+    - assets/icons/Arrow - Left Square.png
+    - assets/icons/Call Missed.png
+    - assets/icons/Filter 2.png
+    - assets/icons/More Circle.png
+    - assets/icons/Shield Done.png
+    - assets/icons/Volume Up.png
+    - assets/icons/Arrow - Left.png
+    - assets/icons/Call Silent.png
+    - assets/icons/Filter.png
+    - assets/icons/More Square.png
+    - assets/icons/Shield Fail.png
+    - assets/icons/Wallet.png
+    - assets/icons/Arrow - Right 2.png
+    - assets/icons/Call.png
+    - assets/icons/Folder.png
+    - assets/icons/Notification.png
+    - assets/icons/Show.png
+    - assets/icons/Work.png
+    - assets/icons/Arrow - Right 3.png
+    - assets/icons/Calling.png
+    - assets/icons/Game.png
+    - assets/icons/Paper Download.png
+    - assets/icons/Star.png
+    - assets/icons/Arrow - Right Circle.png
+    - assets/icons/Camera.png
+    - assets/icons/Graph.png
+    - assets/icons/Paper Fail.png
+    - assets/icons/Swap.png
+    - assets/icons/home-service.png
+    - assets/icons/home-service-white.png
+    - assets/icons/home-service-primary.png
+    - assets/icons/th.png
+    - assets/icons/en.png
+
+    - assets/lang/en.json
+    - assets/lang/th.json
+    - assets/json/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

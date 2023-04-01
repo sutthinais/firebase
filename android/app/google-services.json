@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "660609713234",
+    "firebase_url": "https://siri-outarea-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "siri-outarea",
+    "storage_bucket": "siri-outarea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660609713234:android:e0ced9c64b4295d2ac0b8b",
+        "android_client_info": {
+          "package_name": "com.getxhomeservice.homeone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660609713234-ohmju9c2at6b58a6q5tsb701ftbhukmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCHPfC6NslmJbEo0XV2pNRfCq1epdl-FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660609713234-ohmju9c2at6b58a6q5tsb701ftbhukmr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "660609713234-g89t3bm6ejtcbc1p5rt7nmdpglro12q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.getxhomeservice.homeone.getxHomeService"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
